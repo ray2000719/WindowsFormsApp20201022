@@ -16,5 +16,10 @@ namespace WindowsFormsApp20201022
         {
             InitializeComponent();
         }
+
+        private void Go_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
