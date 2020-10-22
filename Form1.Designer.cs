@@ -35,7 +35,7 @@
             // go
             // 
             this.go.Font = new System.Drawing.Font("新細明體", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.go.Location = new System.Drawing.Point(291, 89);
+            this.go.Location = new System.Drawing.Point(318, 79);
             this.go.Name = "go";
             this.go.Size = new System.Drawing.Size(112, 90);
             this.go.TabIndex = 0;
@@ -50,6 +50,7 @@
             this.rtbmsg.Size = new System.Drawing.Size(260, 132);
             this.rtbmsg.TabIndex = 1;
             this.rtbmsg.Text = "";
+            this.rtbmsg.TextChanged += new System.EventHandler(this.Rtbmsg_TextChanged);
             // 
             // Form1
             // 

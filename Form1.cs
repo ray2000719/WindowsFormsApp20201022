@@ -19,6 +19,18 @@ namespace WindowsFormsApp20201022
 
         private void Go_Click(object sender, EventArgs e)
         {
+            Poker p = new Poker();
+            List<int> poker = p.GetPoker(52);
+            string msg = "";
+            for (int i = 0; i < poker.Count; i++)
+            {
+                msg += $"{poker[i]},";
+            }
+            rtbmsg.Text += msg+ "\n" ;
+        }
+
+        private void Rtbmsg_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }
